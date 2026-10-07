@@ -22,7 +22,7 @@ A. Copera reads each photo and video once to make a small preview and its observ
 
 ### Q. Some photos don't appear on the canvas.
 
-A. Click the count at the top of the window to see why. For example, the photo has no recorded value for the current axis (No data), is still being observed (Observing), or couldn't be read and has stopped (Observation paused).
+A. Click the count at the top of the window to see why. For example, the photo has no recorded value for the current axis (No data), is still being observed (Observing), or couldn't be read and has stopped (Paused).
 
 ### Q. How do I free up the space Copera uses?
 
@@ -66,7 +66,7 @@ A. Coperaは写真や動画を一枚ずつ読み、小さなプレビューと�
 
 ### Q. キャンバスに並ばない写真があります。
 
-A. ウィンドウ上部の件数をクリックすると、並ばない理由を確認できます。たとえば、今の軸の値が記録されていない（No data）、まだ観測中（Observing）、読み取れずに止まっている（Observation paused）などです。
+A. ウィンドウ上部の件数をクリックすると、並ばない理由を確認できます。たとえば、今の軸の値が記録されていない（No data）、まだ観測中（Observing）、読み取れずに止まっている（Paused）などです。
 
 ### Q. Coperaが使っている容量を空けたい。
 

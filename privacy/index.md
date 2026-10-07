@@ -1,6 +1,6 @@
 # Copera Privacy Policy
 
-Effective: `<公開日>`
+Effective: October 7, 2026
 
 Copera is a Mac app that reads the photos and videos you choose and lays them out on a canvas. This policy explains what Copera does with your information.
 
@@ -30,7 +30,7 @@ This data stays on your Mac. You can remove it with **Reset Copera…** in Coper
 
 When you choose to open an item in Lightroom or DaVinci Resolve, Copera passes that file to the app you chose. For DaVinci Resolve, Copera passes the file path over a connection on your own Mac.
 
-For an item in your Photos library, Copera first saves a copy of the original. The copy for Lightroom is kept inside Copera's app container and removed after a day or by **Reset Copera…**. The copy for DaVinci Resolve is saved in a "Copera" folder in the project's media location, and Copera does not remove it.
+For an item in your Photos library, Copera first saves a copy of the original. The copy for Lightroom is kept inside Copera's app container and removed later by Copera, or by **Reset Copera…**. The copy for DaVinci Resolve is saved in a "Copera" folder in the project's media location, and Copera does not remove it.
 
 What happens next, such as syncing, is handled by that app.
 
@@ -58,7 +58,7 @@ If this policy changes, the new version will be posted on this page with a new e
 
 # Copera プライバシーポリシー
 
-施行日: `<公開日>`
+施行日: 2026年10月7日
 
 Coperaは、選んだ写真や動画を読み取り、キャンバスに並べるMacのアプリです。Coperaが写真や情報をどう扱うかを説明します。
 
@@ -88,7 +88,7 @@ Coperaは、選んだ写真や動画を読み取り、キャンバスに並べ�
 
 LightroomやDaVinci Resolveで開くと、Coperaは選んだファイルをそのアプリへ渡します。DaVinci Resolveへは、Macの中の接続でファイルの場所を渡します。
 
-写真ライブラリの写真は、先に原本の写しを作ってから渡します。Lightroom用の写しはアプリの保存領域に置き、一日後か **Reset Copera…** で消します。DaVinci Resolve用の写しはプロジェクトのメディアの保存先の「Copera」フォルダに置き、Coperaは消しません。
+写真ライブラリの写真は、先に原本の写しを作ってから渡します。Lightroom用の写しはアプリの保存領域に置き、後日か **Reset Copera…** で消します。DaVinci Resolve用の写しはプロジェクトのメディアの保存先の「Copera」フォルダに置き、Coperaは消しません。
 
 渡した後の同期などは、渡した先のアプリが行います。
 
