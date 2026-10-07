@@ -28,7 +28,11 @@ This data stays on your Mac. You can remove it with **Reset Copera…** in Coper
 
 ## Opening items in other apps
 
-When you choose to open an item in Lightroom or DaVinci Resolve, Copera passes that file to the app you chose. For DaVinci Resolve, Copera passes the file path over a connection on your own Mac. For an item in your Photos library, Copera first saves a copy of the original: for Lightroom inside its app container, where it is removed after a day or by **Reset Copera…**, and for DaVinci Resolve in a "Copera" folder in the project's media location, which Copera does not remove. What happens next, such as syncing, is handled by that app.
+When you choose to open an item in Lightroom or DaVinci Resolve, Copera passes that file to the app you chose. For DaVinci Resolve, Copera passes the file path over a connection on your own Mac.
+
+For an item in your Photos library, Copera first saves a copy of the original. The copy for Lightroom is kept inside Copera's app container and removed after a day or by **Reset Copera…**. The copy for DaVinci Resolve is saved in a "Copera" folder in the project's media location, and Copera does not remove it.
+
+What happens next, such as syncing, is handled by that app.
 
 ## Purchases
 
@@ -56,49 +60,53 @@ If this policy changes, the new version will be posted on this page with a new e
 
 施行日: `<公開日>`
 
-Coperaは、利用者が選んだ写真と動画を読み取り、キャンバスへ並べるMacのアプリです。このポリシーは、Coperaが利用者の情報をどう扱うかを説明します。
+Coperaは、選んだ写真や動画を読み取り、キャンバスに並べるMacのアプリです。Coperaが写真や情報をどう扱うかを説明します。
 
 ## データを収集しません
 
-- 写真・動画、およびそれらから計算した値を、開発者や他のサービスへ送りません。
+- 写真や動画、写真や動画から計算した値を、開発者にも他のサービスにも送りません。
 - アカウント、広告、利用状況の解析、トラッキングはありません。
-- 撮影日時・撮影設定・寸法・容量・色などの値は、すべてMacの中で計算します。
+- 撮影日時、撮影設定、寸法、容量、色などの値は、すべてMacの中で計算します。
 
 ## Macに保存するもの
 
-ライブラリを速く表示するため、Macにあるアプリの保存領域（container）に次のものを置きます。
+写真をすばやく表示するため、Coperaは次のものをMacの中のアプリの保存領域に置きます。
 
-- 小さなプレビュー画像と、写真・動画から読み取った値と撮影情報（位置情報を含むことがあります）
+- 小さなプレビュー画像と、写真や動画から読み取った値と撮影情報（位置情報を含むことがあります）
 - 選んだフォルダと、写真ライブラリへの接続
 - 表示の設定
 
-これらはMacの外へ出ません。Coperaの **Settings…**（⌘,）にある **Reset Copera…** で消せます。アプリを削除しても自動では消えません。先に初期化するか、`~/Library/Containers/dev.taku.copera` のフォルダを削除してください。
+保存したものはMacの外へ出ません。**Settings…**（⌘,）の **Reset Copera…** で消せます。アプリを削除しただけでは消えないので、先にResetするか、`~/Library/Containers/dev.taku.copera` のフォルダを削除してください。
 
 ## 写真とフォルダへのアクセス
 
-- **フォルダ:** 利用者が選んだフォルダだけを読みます。Coperaから外すまで、アクセスを保ちます。
-- **写真ライブラリ:** 利用者が接続し、macOSで許可した後に読みます。原本がiCloudにある場合、Coperaが読めるよう、macOSがダウンロードすることがあります。
-- 原本を編集しません。原本の削除は、利用者が確認して実行したときだけです。フォルダのファイルはゴミ箱へ、写真ライブラリの項目は「最近削除した項目」へ移ります。
+- **フォルダ:** 選んだフォルダだけを読みます。Coperaから外すまで、アクセスを保ちます。
+- **写真ライブラリ:** 接続して、macOSで許可した後に読みます。原本がiCloudにある場合は、macOSがダウンロードすることがあります。
+- 原本は編集しません。原本の削除は、確認して実行したときだけです。フォルダのファイルはゴミ箱へ、写真ライブラリの写真は「最近削除した項目」へ移ります。
 
 ## 他のアプリで開く
 
-LightroomやDaVinci Resolveで開くと、Coperaはそのファイルを選んだアプリへ渡します。DaVinci Resolveへは、Macの中の接続でファイルの場所を渡します。写真ライブラリの項目は、先に原本の写しを作ります。Lightroom用はアプリの保存領域に置き、一日後か **Reset Copera…** で消します。DaVinci Resolve用はProjectのメディアの保存先の「Copera」フォルダに置き、Coperaは消しません。その後の同期などは、渡した先のアプリの動作です。
+LightroomやDaVinci Resolveで開くと、Coperaは選んだファイルをそのアプリへ渡します。DaVinci Resolveへは、Macの中の接続でファイルの場所を渡します。
+
+写真ライブラリの写真は、先に原本の写しを作ってから渡します。Lightroom用の写しはアプリの保存領域に置き、一日後か **Reset Copera…** で消します。DaVinci Resolve用の写しはプロジェクトのメディアの保存先の「Copera」フォルダに置き、Coperaは消しません。
+
+渡した後の同期などは、渡した先のアプリが行います。
 
 ## 購入
 
-アプリ内課金はAppleが処理します。Coperaは支払い情報を受け取りません。起動時に正しい機能を出すため、Copera Proを買ったかどうかをMacの中に覚えます。どこにも送りません。
+アプリ内課金はAppleが処理し、Coperaは支払い情報を受け取りません。起動時に使える機能を正しく出すため、Copera Proを購入したかどうかをMacの中に記録します。記録はどこにも送りません。
 
 ## クラッシュレポート
 
-利用者がmacOSの設定でアプリ開発元との共有を許可している場合、Appleがクラッシュレポートを開発者へ提供することがあります。このレポートはAppleが作成・送信するもので、Coperaは送りません。
+macOSの設定でアプリ開発元との共有を許可している場合、Appleがクラッシュレポートを開発者へ届けることがあります。クラッシュレポートはAppleが作成して送るもので、Coperaは送りません。
 
 ## 子ども
 
-子どもを含め、どなたの情報も意図して収集しません。
+子どもを含め、誰の情報も意図して収集しません。
 
 ## 変更
 
-このポリシーを変えた場合は、このページに新しい施行日とともに掲載します。
+ポリシーを変えた場合は、新しい施行日とともにこのページに掲載します。
 
 ## 連絡先
 
