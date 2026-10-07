@@ -1,73 +1,85 @@
 # Copera Support
 
-Questions, problems and requests: [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
+Contact: [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
 
-When you write, please include the Copera version (Copera › About Copera), your Mac model and memory, and the macOS version.
+When you contact us, choose Help › Copy Diagnostic Info, then include the text copied to the clipboard in your email.
 
 ## Requirements
 
-- A Mac with Apple silicon and 16 GB of memory or more
-- macOS 26 or later
-- Folders on APFS volumes (most internal and many external drives)
-- Opening in DaVinci Resolve: DaVinci Resolve Studio 21.1 or later, with Preferences › System › General › External scripting using set to Local
+- Apple silicon, 16 GB of memory (recommended), macOS 26 or later. Try the free version to see how it runs on your Mac.
+- Local folders: APFS-formatted volumes (internal drives and most external drives)
+- DaVinci Resolve integration: DaVinci Resolve Studio 21.1 or later. Set Preferences › System › General › External scripting using to Local.
 
 ## Frequently asked questions
 
-**Does Copera change or upload my photos?**
-No. Copera reads your originals as they are and calculates everything on your Mac. Nothing is uploaded. See the [privacy policy](../privacy/).
+### Q. Does Copera change my photos or send them anywhere?
 
-**Why does it take time the first time?**
-Copera reads each photo and video once to create small previews and read its values. For a large library this takes a while, and it continues in the background while you use the app. Next time, Copera reuses what it has already read. It works more slowly in Low Power Mode or when the Mac is hot.
+A. No. Copera only reads your originals, and everything is calculated on your Mac. For details, see the [Privacy Policy](../privacy/).
 
-**Some items are not placed on the canvas.**
-Open the count at the top of the window. It shows why items are not placed. For example, an item may have no value for the current axis, may still be read, or may be stopped because it could not be read.
+### Q. It takes a while before my photos appear the first time.
 
-**How do I free the space Copera uses?**
-Open **Settings…** (⌘,) in the Copera menu and choose **Reset Copera…** under General. This removes Copera's previews, values, folder list and settings. Your originals are not changed. Deleting the app does not remove this data automatically.
+A. Copera reads each photo and video once to make a small preview and its observed values. A large library takes time, but the work continues in the background while you use the app. Photos that have been read aren't read again, so later launches are faster. In Low Power Mode or when your Mac is hot, Copera slows down making previews and values.
 
-**How do I restore deleted originals?**
-Files are in the Trash. Photos items are in Recently Deleted in the Photos app.
+### Q. Some photos don't appear on the canvas.
 
-**What does Copera Pro add?**
-Copera Pro is a one-time purchase. It adds search, filters and value ranges; Open With, Show in Finder and deleting originals; and up to 100,000 on the canvas (the free version shows up to 30,000 at once). Choosing observers and layouts, the Inspector and the Viewer are free.
+A. Click the count at the top of the window to see why. For example, the photo has no recorded value for the current axis (No data), is still being observed (Observing), or couldn't be read and has stopped (Observation paused).
 
-**How do I get Copera Pro on another Mac?**
-Sign in with the same Apple Account, then choose **Restore Purchase** in Copera › Copera Pro… or in **Settings…** › General.
+### Q. How do I free up the space Copera uses?
+
+A. Choose Reset Copera… under General in Settings… (⌘,) to delete the previews, values, folder list and settings Copera has made. Your originals stay as they are. Moving the app to the Trash alone doesn't delete them, so reset first.
+
+### Q. How do I get back a photo I deleted?
+
+A. Photos from folders are in the Trash, and photos from your Photos library are in Recently Deleted in the Photos app.
+
+### Q. What does Copera Pro add?
+
+A. Copera Pro is a one-time in-app purchase. It unlocks search, filters and value ranges, plus Open With, Show in Finder and deleting originals, and raises the canvas limit from 30,000 to 100,000 items. Choosing observers, the Inspector and the Viewer are free.
+
+### Q. How do I use Copera Pro on another Mac?
+
+A. Sign in with the same Apple Account, then choose Restore Purchase in Copera › Copera Pro… or in Settings… › General.
 
 ---
 
 # Coperaのサポート
 
-質問・不具合・要望: [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
+お問い合わせ: [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
 
-お問い合わせの際は、Coperaのバージョン（Copera › About Copera）、Macの機種とメモリ、macOSのバージョンをお知らせください。
+お問い合わせの際は、Helpメニューの「Copy Diagnostic Info」を押した後、クリップボードにコピーされたテキストを添付してお問い合わせ下さい。
 
 ## 動作環境
 
-- Appleシリコン搭載で、メモリ16GB以上のMac
-- macOS 26以降
-- APFSのボリュームにあるフォルダ（内蔵と、多くの外付けドライブ）
-- DaVinci Resolveで開く場合: DaVinci Resolve Studio 21.1以降で、Preferences › System › General › External scripting usingをLocalにします
+- Appleシリコン搭載、メモリ16GB（推奨）、macOS 26以降に対応。無料版で動作をご確認ください。
+- ローカルフォルダ：APFSフォーマットのボリュームに対応（内蔵ドライブと、多くの外付けドライブ）
+- DaVinci Resolve連携：DaVinci Resolve Studio 21.1以降。Preferences › System › General › External scripting using を Local にしてください。
 
 ## よくある質問
 
-**写真を変更したり、アップロードしたりしますか？**
-しません。原本をそのまま読み、計算はすべてMacの中で行います。アップロードもしません。[プライバシーポリシー](../privacy/)をご覧ください。
+### Q. 写真が書き換えられたり、どこかへ送られたりしませんか？
 
-**初回に時間がかかるのはなぜですか？**
-写真と動画を一度ずつ読み、小さなプレビューと値を作るためです。大きなライブラリでは時間がかかりますが、使っている間も裏で進みます。二回目からは、読んだものを再利用します。低電力モードの間やMacが熱いときは、ゆっくり進みます。
+A. ありません。Coperaは原本を読むだけで、計算はすべてMacの中で行います。詳しくは[プライバシーポリシー](../privacy/)をご覧ください。
 
-**キャンバスに並ばない項目があります。**
-ウィンドウ上部の件数を開くと、並ばない理由が分かります。今の軸の値がない、読み取り中、読み取れずに止まっている、などです。
+### Q. 最初は、写真が並ぶまで時間がかかります。
 
-**Coperaが使う容量を空けるには？**
-Coperaメニューの **Settings…**（⌘,）を開き、Generalの **Reset Copera…** を選びます。Coperaのプレビュー、値、フォルダの一覧、設定を消します。原本は変わりません。アプリを削除しても、これらは自動では消えません。
+A. Coperaは写真や動画を一枚ずつ読み、小さなプレビューと観測値を作ります。ライブラリが大きいと時間がかかりますが、使っている間も裏で進みます。一度読んだ写真は次から読み直さないので、二回目からは早く開きます。低電力モードの間やMacが熱いときは、プレビューと観測値を作る速度を下げます。
 
-**削除した原本を戻すには？**
-フォルダのファイルはゴミ箱に、写真ライブラリの項目は写真アプリの「最近削除した項目」にあります。
+### Q. キャンバスに並ばない写真があります。
 
-**Copera Proで何が加わりますか？**
-Copera Proは買い切りです。検索・絞り込み・値の範囲、Finder・他のアプリで開く・原本の削除、キャンバスの10万件（無料は一度に3万件まで）が加わります。観測器と並べ方の選択、Inspector、Viewerは無料です。
+A. ウィンドウ上部の件数をクリックすると、並ばない理由を確認できます。たとえば、今の軸の値が記録されていない（No data）、まだ観測中（Observing）、読み取れずに止まっている（Observation paused）などです。
 
-**別のMacでCopera Proを使うには？**
-同じApple Accountでサインインし、Copera › Copera Pro… か **Settings…** › General の **Restore Purchase** を選びます。
+### Q. Coperaが使っている容量を空けたい。
+
+A. Settings…（⌘,）のGeneralにある「Reset Copera…」で、Coperaが作ったプレビュー/観測値/フォルダの一覧/設定を消せます。原本はそのままです。アプリをゴミ箱に入れるだけでは消えないので、先にResetしてください。
+
+### Q. 削除した写真を元に戻したい。
+
+A. フォルダの写真はゴミ箱に、写真ライブラリの写真は写真アプリの「最近削除した項目」に入っています。
+
+### Q. Copera Proでは何ができますか？
+
+A. Copera Proは買い切りのアプリ内課金です。検索/絞り込み/値の範囲、他のアプリで開く/Finderで表示/原本の削除が使えるようになり、キャンバスの最大メディア数が3万件から10万件に増えます。観測器の選択、Inspector、Viewerは無料版でも使えます。
+
+### Q. 別のMacでもCopera Proを使いたい。
+
+A. 同じApple Accountでサインインして、Copera › Copera Pro… か Settings… › General の「Restore Purchase」を押してください。

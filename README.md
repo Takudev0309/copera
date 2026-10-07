@@ -1,6 +1,6 @@
 # copera
 
-Public pages for Copera for Mac, served with GitHub Pages:
+Public pages for Copera, served with GitHub Pages:
 
 - https://takudev0309.github.io/copera/support/
 - https://takudev0309.github.io/copera/privacy/

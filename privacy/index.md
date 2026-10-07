@@ -14,7 +14,7 @@ Copera is a Mac app that reads the photos and videos you choose and lays them ou
 
 To show your library quickly, Copera keeps the following inside its app container on your Mac:
 
-- small preview images and the values it reads from your photos and videos
+- small preview images, and the values and metadata it reads from your photos and videos (which may include location)
 - the folders you choose and your Photos library connection
 - your display settings
 
@@ -28,7 +28,7 @@ This data stays on your Mac. You can remove it with **Reset Copera…** in Coper
 
 ## Opening items in other apps
 
-When you choose to open an item in Lightroom or DaVinci Resolve, Copera passes that file to the app you chose. For DaVinci Resolve, Copera passes the file path over a connection on your own Mac. What happens next, such as syncing, is handled by that app.
+When you choose to open an item in Lightroom or DaVinci Resolve, Copera passes that file to the app you chose. For DaVinci Resolve, Copera passes the file path over a connection on your own Mac. For an item in your Photos library, Copera first saves a copy of the original: for Lightroom inside its app container, where it is removed after a day or by **Reset Copera…**, and for DaVinci Resolve in a "Copera" folder in the project's media location, which Copera does not remove. What happens next, such as syncing, is handled by that app.
 
 ## Purchases
 
@@ -68,7 +68,7 @@ Coperaは、利用者が選んだ写真と動画を読み取り、キャンバ�
 
 ライブラリを速く表示するため、Macにあるアプリの保存領域（container）に次のものを置きます。
 
-- 小さなプレビュー画像と、写真・動画から読み取った値
+- 小さなプレビュー画像と、写真・動画から読み取った値と撮影情報（位置情報を含むことがあります）
 - 選んだフォルダと、写真ライブラリへの接続
 - 表示の設定
 
@@ -82,7 +82,7 @@ Coperaは、利用者が選んだ写真と動画を読み取り、キャンバ�
 
 ## 他のアプリで開く
 
-LightroomやDaVinci Resolveで開くと、Coperaはそのファイルを選んだアプリへ渡します。DaVinci Resolveへは、Macの中の接続でファイルの場所を渡します。その後の同期などは、渡した先のアプリの動作です。
+LightroomやDaVinci Resolveで開くと、Coperaはそのファイルを選んだアプリへ渡します。DaVinci Resolveへは、Macの中の接続でファイルの場所を渡します。写真ライブラリの項目は、先に原本の写しを作ります。Lightroom用はアプリの保存領域に置き、一日後か **Reset Copera…** で消します。DaVinci Resolve用はProjectのメディアの保存先の「Copera」フォルダに置き、Coperaは消しません。その後の同期などは、渡した先のアプリの動作です。
 
 ## 購入
 
