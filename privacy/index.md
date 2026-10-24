@@ -1,6 +1,6 @@
 # Copera Privacy Policy
 
-Effective: October 7, 2026
+Effective: October 25, 2026
 
 Copera is a Mac app that reads the photos and videos you choose and lays them out on a canvas. This policy explains what Copera does with your information.
 
@@ -16,7 +16,7 @@ To show your library quickly, Copera keeps the following inside its app containe
 
 - small preview images, and the values and metadata it reads from your photos and videos (which may include location)
 - the folders you choose and your Photos library connection
-- your display settings
+- your display settings, and what you save to My Canvas (settings, including search words, and a small image)
 
 This data stays on your Mac. You can remove it with **Reset Copera…** in Copera's Settings (⌘,). Deleting the app does not remove it automatically: reset first, or delete the folder `~/Library/Containers/dev.taku.copera`.
 
@@ -58,7 +58,7 @@ If this policy changes, the new version will be posted on this page with a new e
 
 # Copera プライバシーポリシー
 
-施行日: 2026年10月7日
+施行日: 2026年10月25日
 
 Coperaは、選んだ写真や動画を読み取り、キャンバスに並べるMacのアプリです。Coperaが写真や情報をどう扱うかを説明します。
 
@@ -74,7 +74,7 @@ Coperaは、選んだ写真や動画を読み取り、キャンバスに並べ�
 
 - 小さなプレビュー画像と、写真や動画から読み取った値と撮影情報（位置情報を含むことがあります）
 - 選んだフォルダと、写真ライブラリへの接続
-- 表示の設定
+- 表示の設定と、My Canvasに保存したもの（検索の語を含む設定と、小さな画像）
 
 保存したものはMacの外へ出ません。**Settings…**（⌘,）の **Reset Copera…** で消せます。アプリを削除しただけでは消えないので、先にResetするか、`~/Library/Containers/dev.taku.copera` のフォルダを削除してください。
 

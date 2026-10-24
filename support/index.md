@@ -9,6 +9,7 @@ When you contact us, choose Help › Copy Diagnostic Info, then include the text
 - Apple silicon, 16 GB of memory (recommended), macOS 26 or later. Try the free version to see how it runs on your Mac.
 - Local folders: APFS-formatted volumes (internal drives and most external drives)
 - DaVinci Resolve integration: DaVinci Resolve Studio 21.1 or later. Set Preferences › System › General › External scripting using to Local.
+- Lightroom integration: Adobe Lightroom (not Lightroom Classic)
 
 ## Frequently asked questions
 
@@ -26,7 +27,7 @@ A. Click the count at the top of the window to see why. For example, the photo h
 
 ### Q. How do I free up the space Copera uses?
 
-A. Choose Reset Copera… under General in Settings… (⌘,) to delete the previews, values, folder list and settings Copera has made. Your originals stay as they are. Moving the app to the Trash alone doesn't delete them, so reset first.
+A. Choose Reset Copera… under General in Settings… (⌘,) to delete the previews, values, folder list, My Canvas and settings Copera has made. Your originals stay as they are. Moving the app to the Trash alone doesn't delete them, so reset first.
 
 ### Q. How do I get back a photo I deleted?
 
@@ -34,7 +35,7 @@ A. Photos from folders are in the Trash, and photos from your Photos library are
 
 ### Q. What does Copera Pro add?
 
-A. Copera Pro is a one-time in-app purchase. It unlocks search, filters and value ranges, plus Open With, Show in Finder and deleting originals, and raises the canvas limit from 30,000 to 100,000 items. Choosing observers, the Inspector and the Viewer are free.
+A. Copera Pro is a one-time in-app purchase. It unlocks search, filters and value ranges, plus Open With, Show in Finder and deleting originals, raises the canvas limit from 30,000 to 100,000 items, and My Canvas from 1 to 100. Choosing observers, the Inspector and the Viewer are free.
 
 ### Q. How do I use Copera Pro on another Mac?
 
@@ -53,6 +54,7 @@ A. Sign in with the same Apple Account, then choose Restore Purchase in Copera �
 - Appleシリコン搭載、メモリ16GB（推奨）、macOS 26以降に対応。無料版で動作をご確認ください。
 - ローカルフォルダ：APFSフォーマットのボリュームに対応（内蔵ドライブと、多くの外付けドライブ）
 - DaVinci Resolve連携：DaVinci Resolve Studio 21.1以降。Preferences › System › General › External scripting using を Local にしてください。
+- Lightroom連携：Adobe Lightroom（Lightroom Classicは非対応）
 
 ## よくある質問
 
@@ -70,7 +72,7 @@ A. ウィンドウ上部の件数をクリックすると、並ばない理由�
 
 ### Q. Coperaが使っている容量を空けたい。
 
-A. Settings…（⌘,）のGeneralにある「Reset Copera…」で、Coperaが作ったプレビュー/観測値/フォルダの一覧/設定を消せます。原本はそのままです。アプリをゴミ箱に入れるだけでは消えないので、先にResetしてください。
+A. Settings…（⌘,）のGeneralにある「Reset Copera…」で、Coperaが作ったプレビュー/観測値/フォルダの一覧/My Canvas/設定を消せます。原本はそのままです。アプリをゴミ箱に入れるだけでは消えないので、先にResetしてください。
 
 ### Q. 削除した写真を元に戻したい。
 
@@ -78,7 +80,7 @@ A. フォルダの写真はゴミ箱に、写真ライブラリの写真は写�
 
 ### Q. Copera Proでは何ができますか？
 
-A. Copera Proは買い切りのアプリ内課金です。検索/絞り込み/値の範囲、他のアプリで開く/Finderで表示/原本の削除が使えるようになり、キャンバスの最大メディア数が3万件から10万件に増えます。観測器の選択、Inspector、Viewerは無料版でも使えます。
+A. Copera Proは買い切りのアプリ内課金です。検索/絞り込み/値の範囲、他のアプリで開く/Finderで表示/原本の削除が使えるようになり、キャンバスの最大メディア数が3万件から10万件に、My Canvasが1件から100件に増えます。観測器の選択、Inspector、Viewerは無料版でも使えます。
 
 ### Q. 別のMacでもCopera Proを使いたい。
 
