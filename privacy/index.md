@@ -1,6 +1,6 @@
 # Copera Privacy Policy
 
-Effective: October 25, 2026
+Effective: October 30, 2026
 
 Copera is a Mac app that reads the photos and videos you choose and lays them out on a canvas. This policy explains what Copera does with your information.
 
@@ -22,8 +22,8 @@ This data stays on your Mac. You can remove it with **Reset Copera…** in Coper
 
 ## Access to your photos and folders
 
-- **Folders:** Copera reads only the folders you choose. It keeps access to them until you remove them from Copera.
-- **Photos library:** Copera reads your Photos library only after you connect it and allow access in macOS. If an original is stored in iCloud, macOS may download it so that Copera can read it.
+- **Folders:** Copera reads only the folders you choose. It keeps access to them until you remove them from Copera: right-click the folder in Sources and choose **Stop Observing Folder…**.
+- **Photos library:** Copera reads your Photos library only after you connect it and allow access in macOS. If an original is stored in iCloud, macOS may download it so that Copera can read it. To stop, right-click Photos Library in Sources and choose **Stop Observing Photos Library…**. To take back the access itself, turn off Copera in System Settings › Privacy & Security › Photos.
 - Copera never edits your originals. Deleting originals happens only when you explicitly confirm it. Files are moved to the Trash, and Photos items are moved to Recently Deleted.
 
 ## Opening items in other apps
@@ -54,11 +54,13 @@ If this policy changes, the new version will be posted on this page with a new e
 
 [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
 
+If you email us, we use your email address and what you send (such as the text from Help › **Copy Diagnostic Info**, which contains no file names or paths) only to reply to you. We do not share it, and we delete it if you ask.
+
 ---
 
 # Copera プライバシーポリシー
 
-施行日: 2026年10月25日
+施行日: 2026年10月30日
 
 Coperaは、選んだ写真や動画を読み取り、キャンバスに並べるMacのアプリです。Coperaが写真や情報をどう扱うかを説明します。
 
@@ -80,8 +82,8 @@ Coperaは、選んだ写真や動画を読み取り、キャンバスに並べ�
 
 ## 写真とフォルダへのアクセス
 
-- **フォルダ:** 選んだフォルダだけを読みます。Coperaから外すまで、アクセスを保ちます。
-- **写真ライブラリ:** 接続して、macOSで許可した後に読みます。原本がiCloudにある場合は、macOSがダウンロードすることがあります。
+- **フォルダ:** 選んだフォルダだけを読みます。Coperaから外すまで、アクセスを保ちます。外すには、Sourcesのフォルダを右クリックして **Stop Observing Folder…** を選びます。
+- **写真ライブラリ:** 接続して、macOSで許可した後に読みます。原本がiCloudにある場合は、macOSがダウンロードすることがあります。読むのをやめるには、SourcesのPhotos Libraryを右クリックして **Stop Observing Photos Library…** を選びます。許可そのものを取り消すには、システム設定 › プライバシーとセキュリティ › 写真 で、Coperaをオフにします。
 - 原本は編集しません。原本の削除は、確認して実行したときだけです。フォルダのファイルはゴミ箱へ、写真ライブラリの写真は「最近削除した項目」へ移ります。
 
 ## 他のアプリで開く
@@ -111,3 +113,5 @@ macOSの設定でアプリ開発元との共有を許可している場合、App
 ## 連絡先
 
 [coperainfo@gmail.com](mailto:coperainfo@gmail.com)
+
+メールでお問い合わせいただいた場合、メールアドレスと送られた内容（Help › **Copy Diagnostic Info** で写した文など。ファイル名や場所は含みません）は、返信のためだけに使います。他へ渡さず、求めがあれば削除します。
